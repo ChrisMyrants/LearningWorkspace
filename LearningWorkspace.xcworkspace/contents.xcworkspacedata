@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:"
+      name = "UIKit">
+      <Group
+         location = "container:Window and Root View"
+         name = "Window and Root View">
+         <FileRef
+            location = "group:How an app launches/How an app launches.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>
