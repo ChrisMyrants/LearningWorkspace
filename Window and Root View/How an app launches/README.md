@@ -14,3 +14,10 @@ The window will be the root of our view hierarchy. This root will have just one 
 
 This app is not modified, so that you can check all the elements described in this explanation and play with them.
 
+## Referring Window
+We can refere to our window in the application in 3 different ways:
+  1. Every window has a reference to the window thanks to its `window` property. This is true just when the view is in the interface. If it is not, the `window` property will be nil.
+  2. We have the shared application has a reference to the window, thanks to its `keyWindow` property.
+  3. Also the the app delegate has a reference to the window, thanks to a `window` property.
+You can find examples of all 3 the approaches in the `ViewController.swift` file.
+
