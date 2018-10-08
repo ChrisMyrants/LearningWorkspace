@@ -11,5 +11,12 @@
             location = "group:How an app launches/How an app launches.xcodeproj">
          </FileRef>
       </Group>
+      <Group
+         location = "container:Subview and Superview"
+         name = "Superview and Subview">
+         <FileRef
+            location = "group:Subview and Superview/Subview and Superview.xcodeproj">
+         </FileRef>
+      </Group>
    </Group>
 </Workspace>
