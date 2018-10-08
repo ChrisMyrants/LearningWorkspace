@@ -10,3 +10,9 @@ The view position in the view hierarchy determines when it will be drawn. This m
   3. The subviews of a view will be drawn before the next sibilings of its superview
   
 To illustrate these scenarios, you can check in `ViewController.swift` the example that I prepared. Check the `showingViewsInTheExpectedOrder()` function.
+
+There are more properties about the relationship about superview and subviews:
+  1. If a view is removed from or moved within its superview, it's subviews will go with it. Take a look at `removingAViewWillRemoveAllItsSubviews()` function.
+  2. A view transparancy will be inerhited by all its subviews. Take a look at `viewTransparencyWillBeInheritedByAllItsSubviews()`
+  3. A view can limit the drawing area of its subview inside its own rectangle enabling `clipsToBounds` property. Take a look at `clipping()` function.
+  4. Subclass UIView to have access to all its methods and override theme, as you can see from the combination of the `subclassingUIViewForOverrideItsMethods()` function with the `HulkView.swift` file.
